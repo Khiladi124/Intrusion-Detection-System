@@ -26,17 +26,11 @@ The typical architecture of an IDS consists of the following components:
 - **Database**: Stores information about detected intrusions, logs, and signatures.
 - **Alert System**: Notifies administrators when a potential threat is identified.
 
-## Installation
 
-### Prerequisites
+
+## Prerequisites
 
 - Operating System: Linux/Windows/macOS
 - Dependencies: Python 3.x, libpcap, Snort (if using Snort IDS)
 
-### Steps for Installation
 
-1. **Install Required Packages**:
-   On Ubuntu/Debian:
-   ```bash
-   sudo apt update
-   sudo apt install python3 python3-pip libpcap-dev
